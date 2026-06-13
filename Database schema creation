@@ -1,0 +1,10 @@
+INSERT INTO users (user_name, email, password)
+VALUES ('Rajamoorthy', 'rajamoorthy661@gmail.com', 'password123');
+
+INSERT INTO summaries (user_id, input_text, summary_text)
+VALUES (1,
+'Artificial Intelligence is transforming the world.',
+'AI is transforming the world.');
+
+INSERT INTO feedback (summary_id, rating, comments)
+VALUES (1, 5, 'Good summary');
